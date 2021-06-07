@@ -1,0 +1,131 @@
+---
+openapi: 3.0.1
+info:
+  title: cv-generator-life-bear
+  description: LifeSpan services API for use with the CV Generator
+  version: 1.0.2
+servers:
+- url: https://cv-generator-project-server.herokuapp.com
+paths:
+  /json/accomplishments.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/cv.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/education.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/entities.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/experience.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/gantt-chart.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/general-timeline.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/projects.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/publications.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+  /json/ui.json:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: https://cv-generator-project-server.herokuapp.com
+    servers:
+    - url: https://cv-generator-project-server.herokuapp.com
+components:
+  schemas: {}
