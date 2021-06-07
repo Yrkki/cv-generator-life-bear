@@ -1,5 +1,5 @@
 {
-  "openapi" : "3.0.1",
+  "openapi" : "3.0.2",
   "info" : {
     "title" : "cv-generator-life-bear",
     "description" : "LifeSpan services API for use with the CV Generator",
@@ -10,38 +10,6 @@
   } ],
   "paths" : {
     "/json/accomplishments.json" : {
-      "get" : {
-        "description" : "Auto generated using Swagger Inspector",
-        "responses" : {
-          "200" : {
-            "description" : "Auto generated using Swagger Inspector"
-          }
-        },
-        "servers" : [ {
-          "url" : "https://cv-generator-project-server.herokuapp.com"
-        } ]
-      },
-      "servers" : [ {
-        "url" : "https://cv-generator-project-server.herokuapp.com"
-      } ]
-    },
-    "/json/entities.json" : {
-      "get" : {
-        "description" : "Auto generated using Swagger Inspector",
-        "responses" : {
-          "200" : {
-            "description" : "Auto generated using Swagger Inspector"
-          }
-        },
-        "servers" : [ {
-          "url" : "https://cv-generator-project-server.herokuapp.com"
-        } ]
-      },
-      "servers" : [ {
-        "url" : "https://cv-generator-project-server.herokuapp.com"
-      } ]
-    },
-    "/json/general-timeline.json" : {
       "get" : {
         "description" : "Auto generated using Swagger Inspector",
         "responses" : {
@@ -81,12 +49,20 @@
         "url" : "https://cv-generator-project-server.herokuapp.com"
       } ]
     },
-    "/json/gantt-chart.json" : {
+    "/json/education.json" : {
       "get" : {
         "description" : "Auto generated using Swagger Inspector",
         "responses" : {
           "200" : {
-            "description" : "Auto generated using Swagger Inspector"
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
           }
         },
         "servers" : [ {
@@ -97,7 +73,7 @@
         "url" : "https://cv-generator-project-server.herokuapp.com"
       } ]
     },
-    "/json/projects.json" : {
+    "/json/entities.json" : {
       "get" : {
         "description" : "Auto generated using Swagger Inspector",
         "responses" : {
@@ -127,6 +103,54 @@
                 "examples" : { }
               }
             }
+          }
+        },
+        "servers" : [ {
+          "url" : "https://cv-generator-project-server.herokuapp.com"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "https://cv-generator-project-server.herokuapp.com"
+      } ]
+    },
+    "/json/gantt-chart.json" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers" : [ {
+          "url" : "https://cv-generator-project-server.herokuapp.com"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "https://cv-generator-project-server.herokuapp.com"
+      } ]
+    },
+    "/json/general-timeline.json" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers" : [ {
+          "url" : "https://cv-generator-project-server.herokuapp.com"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "https://cv-generator-project-server.herokuapp.com"
+      } ]
+    },
+    "/json/projects.json" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector"
           }
         },
         "servers" : [ {
@@ -167,30 +191,6 @@
         "responses" : {
           "200" : {
             "description" : "Auto generated using Swagger Inspector"
-          }
-        },
-        "servers" : [ {
-          "url" : "https://cv-generator-project-server.herokuapp.com"
-        } ]
-      },
-      "servers" : [ {
-        "url" : "https://cv-generator-project-server.herokuapp.com"
-      } ]
-    },
-    "/json/education.json" : {
-      "get" : {
-        "description" : "Auto generated using Swagger Inspector",
-        "responses" : {
-          "200" : {
-            "description" : "Auto generated using Swagger Inspector",
-            "content" : {
-              "application/json; charset=utf-8" : {
-                "schema" : {
-                  "type" : "string"
-                },
-                "examples" : { }
-              }
-            }
           }
         },
         "servers" : [ {
