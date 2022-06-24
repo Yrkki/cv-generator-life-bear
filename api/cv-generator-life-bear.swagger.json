@@ -2,7 +2,7 @@
   "openapi" : "3.0.1",
   "info" : {
     "title" : "cv-generator-life-bear",
-    "description" : "LifeSpan services API for use with the CV Generator",
+    "description" : "API for the LifeSpan℠ ecosystem",
     "version" : "1.0.2"
   },
   "servers" : [ {

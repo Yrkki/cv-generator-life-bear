@@ -1,7 +1,9 @@
-# Life Bear
+# Bear
 
-API for the LifeSpan family of products
+![Bear](https://github.com/Yrkki/cv-generator-life-logo/blob/master/favicon/cv-generator-life-bear/favicon/favicon.ico?raw=true)
+
+API for the LifeSpan℠ ecosystem
 
 ---
 
-© 1984 – 2021 [Marinov](http://marinov.ml "Marinov"). All rights reserved
+© 2021 [Marinov](http://marinov.link "Marinov"). All rights reserved.
